@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "The name of the project"
   type        = string
-  default     = "lic"
+  default     = "flipkart"
 }
 
 variable "company_name" {

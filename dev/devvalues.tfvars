@@ -1,16 +1,16 @@
 environment = "dev"
 vpc_cidr_block = "192.168.0.0/16"
 common_tags = {
-  Project     = "lic"
+  Project     = "flipkart"
   Company     = "Rushi Technologies"
   Environment = "dev"
 }
 public_subnet_cidrs = ["192.168.0.0/20", "192.168.16.0/20"]
 private_subnet_cidrs = ["192.168.32.0/20", "192.168.48.0/20"]
-cluster_name = "lic-eks-cluster"
+cluster_name = "flipkart-eks-cluster"
 create_nat = true
 eks_version = "1.33"
-eks_cluster_role_name = "lic-eks-cluster-role-dev"
+eks_cluster_role_name = "flipkart-eks-cluster-role-dev"
 node_group_disk_size = 20
 node_group_instance_type = "t3.micro"
 node_group_desired_size = 2
